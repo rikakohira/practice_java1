@@ -35,11 +35,21 @@ class Greeting {
     // System.out.println(var01);
     // System.out.println(var02);
 
-    int var_a = 10;
-    int var_b = 1;
-    boolean var_bool;
+    // int var_a = 10;
+    // int var_b = 1;
+    // boolean var_bool;
 
-    var_bool = (var_a > var_b);
-    System.out.println(var_bool);
+    // var_bool = (var_a > var_b);
+    // System.out.println(var_bool);
+
+    String[] arr;
+    arr = new String[3];
+
+    arr[0] = "鈴木";
+    arr[1] = "秋田";
+    arr[2] = "伊藤";
+
+    System.out.println(arr[0]);
+
   }
 }
