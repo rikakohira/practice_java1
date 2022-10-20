@@ -13,15 +13,20 @@ class Greeting {
     // System.out.println(var_01);
     // System.out.println(var$01);
 
-    byte var01 = 1;
-    short var02 = 12345;
-    int var03 = 1234567890;
-    long var04 = 123456789000L;
+    // byte var01 = 1;
+    // short var02 = 12345;
+    // int var03 = 1234567890;
+    // long var04 = 123456789000L;
+
+    // System.out.println(var01);
+    // System.out.println(var02);
+    // System.out.println(var03);
+    // System.out.println(var04);
+
+    double var01 = 1.23456789;
+    float var02 = 1 / 234F;
 
     System.out.println(var01);
     System.out.println(var02);
-    System.out.println(var03);
-    System.out.println(var04);
-
   }
 }
