@@ -29,11 +29,17 @@ class Greeting {
     // System.out.println(var01);
     // System.out.println(var02);
 
-    char var01 = 'c';
-    String var02 = "hello World!";
+    // char var01 = 'c';
+    // String var02 = "hello World!";
 
-    System.out.println(var01);
-    System.out.println(var02);
+    // System.out.println(var01);
+    // System.out.println(var02);
 
+    int var_a = 10;
+    int var_b = 1;
+    boolean var_bool;
+
+    var_bool = (var_a > var_b);
+    System.out.println(var_bool);
   }
 }
