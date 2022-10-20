@@ -42,14 +42,17 @@ class Greeting {
     // var_bool = (var_a > var_b);
     // System.out.println(var_bool);
 
-    String[] arr;
-    arr = new String[3];
+    // String[] arr;
+    // arr = new String[3];
 
-    arr[0] = "鈴木";
-    arr[1] = "秋田";
-    arr[2] = "伊藤";
+    // arr[0] = "鈴木";
+    // arr[1] = "秋田";
+    // arr[2] = "伊藤";
+
+    // System.out.println(arr[0]);
+
+    String[] arr = { "鈴木", "伊藤", "佐藤" };
 
     System.out.println(arr[0]);
-
   }
 }
