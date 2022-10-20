@@ -23,10 +23,17 @@ class Greeting {
     // System.out.println(var03);
     // System.out.println(var04);
 
-    double var01 = 1.23456789;
-    float var02 = 1 / 234F;
+    // double var01 = 1.23456789;
+    // float var02 = 1.234F;
+
+    // System.out.println(var01);
+    // System.out.println(var02);
+
+    char var01 = 'c';
+    String var02 = "hello World!";
 
     System.out.println(var01);
     System.out.println(var02);
+
   }
 }
