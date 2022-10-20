@@ -51,8 +51,17 @@ class Greeting {
 
     // System.out.println(arr[0]);
 
-    String[] arr = { "鈴木", "伊藤", "佐藤" };
+    // String[] arr = { "鈴木", "伊藤", "佐藤" };
+    // arr[0] = "高瀬";
+    // System.out.println(arr[0]);
 
-    System.out.println(arr[0]);
+    // String[][] arr;
+    // arr = new String[2][2];
+    // arr[0][0] = "鈴木";
+    // System.out.println(arr[0][0]);
+
+    String[][] arr = { { "鈴木", "佐藤" }, { "伊藤", "高瀬" } };
+    System.out.println(arr[1][1]);
+
   }
 }
