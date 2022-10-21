@@ -86,11 +86,27 @@ class First {
     // System.out.println("やっほー！");
     // }
 
-    int num = Integer.parseInt(args[0]);
+    // int num = Integer.parseInt(args[0]);
 
-    while (num < 3) {
-      System.out.println("numは" + num + "です！");
-      num++;
+    // while (num < 3) {
+    // System.out.println("numは" + num + "です！");
+    // num++;
+    // }
+
+    // for (int i = 0; i < 3; i++) {
+    // System.out.println("iは" + i + "です！");
+    // }
+
+    int[] score = new int[3];
+    score[0] = 80;
+    score[1] = 100;
+    score[2] = 75;
+
+    String[] name = { "菅原", "村山", "寺島" };
+
+    for (int i = 0; i < score.length; i++) {
+      System.out.println(name[i] + "は、" + score[0] + "点です");
     }
+    System.out.println("合計人数は" + score.length + "人です");
   }
 }
