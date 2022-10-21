@@ -73,17 +73,24 @@ class First {
     // System.out.println("値引きは" + discount + "円です。");
     // System.out.println("税込金額は" + amount + "円です。");
 
+    // int num = Integer.parseInt(args[0]);
+
+    // switch (num) {
+    // case 1:
+    // System.out.println("こんちには");
+    // break;
+    // case 2:
+    // System.out.println("おはようさん");
+    // break;
+    // default:
+    // System.out.println("やっほー！");
+    // }
+
     int num = Integer.parseInt(args[0]);
 
-    switch (num) {
-      case 1:
-        System.out.println("こんちには");
-        break;
-      case 2:
-        System.out.println("おはようさん");
-        break;
-      default:
-        System.out.println("やっほー！");
+    while (num < 3) {
+      System.out.println("numは" + num + "です！");
+      num++;
     }
   }
 }
