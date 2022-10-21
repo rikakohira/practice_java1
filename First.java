@@ -8,5 +8,27 @@ class First {
 
     System.out.println("このチャンネルは、");
     System.out.println(month + "月" + day + "日に公開しました！");
+
+    int[] score = new int[3];
+    score[0] = 90;
+    score[1] = 20;
+    score[2] = 30;
+
+    String[] name = { "高瀬", "田中", "磯野" };
+
+    System.out.println(name[0] + "さんは、" + score[0] + "点でした！");
+
+    int num = 10;
+    double pi = 3.14;
+    char blood = 'A';
+    boolean fun = true;
+    String msg = "こんにちは！";
+
+    System.out.println(num);
+    System.out.println(pi);
+    System.out.println(blood);
+    System.out.println(fun);
+    System.out.println(msg);
+
   }
 }
