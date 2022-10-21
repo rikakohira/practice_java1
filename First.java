@@ -57,20 +57,33 @@ class First {
     // int amount = (int) (price * (1 + rate));
     // System.out.println("税込金額は" + amount + "円です");
 
-    int price = Integer.parseInt(args[0]);
-    double rate = 0.1; // 消費税10%
-    int amount, discount;
+    // int price = Integer.parseInt(args[0]);
+    // double rate = 0.1; // 消費税10%
+    // int amount, discount;
 
-    if (price >= 5000) {
-      discount = 500;
-    } else if (price >= 3000) {
-      discount = 300;
-    } else {
-      discount = 0;
+    // if (price >= 5000) {
+    // discount = 500;
+    // } else if (price >= 3000) {
+    // discount = 300;
+    // } else {
+    // discount = 0;
+    // }
+
+    // amount = (int) ((price - discount) * (1 + rate));
+    // System.out.println("値引きは" + discount + "円です。");
+    // System.out.println("税込金額は" + amount + "円です。");
+
+    int num = Integer.parseInt(args[0]);
+
+    switch (num) {
+      case 1:
+        System.out.println("こんちには");
+        break;
+      case 2:
+        System.out.println("おはようさん");
+        break;
+      default:
+        System.out.println("やっほー！");
     }
-
-    amount = (int) ((price - discount) * (1 + rate));
-    System.out.println("値引きは" + discount + "円です。");
-    System.out.println("税込金額は" + amount + "円です。");
   }
 }
