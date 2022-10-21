@@ -39,16 +39,22 @@ class First {
 
     // System.out.println("一人目は" + score[0] + "点です");
 
-    int a = Integer.parseInt(args[0]);
-    int b = Integer.parseInt(args[1]);
+    // int a = Integer.parseInt(args[0]);
+    // int b = Integer.parseInt(args[1]);
 
-    System.out.println("a = " + a + ", b = " + b);
-    System.out.println("a + b = " + (a + b));
-    System.out.println("a - b = " + (a - b));
-    System.out.println("a * b = " + (a * b));
-    System.out.println("a / b = " + (a / b));
-    System.out.println("a % b = " + (a % b));
-    System.out.println("a >= 0�F" + (a >= 0));
-    System.out.println("(a >= 0) && (b >= 0)�F" + ((a >= 0) && (b >= 0)));
+    // System.out.println("a = " + a + ", b = " + b);
+    // System.out.println("a + b = " + (a + b));
+    // System.out.println("a - b = " + (a - b));
+    // System.out.println("a * b = " + (a * b));
+    // System.out.println("a / b = " + (a / b));
+    // System.out.println("a % b = " + (a % b));
+    // System.out.println("a >= 0�F" + (a >= 0));
+    // System.out.println("(a >= 0) && (b >= 0)�F" + ((a >= 0) && (b >= 0)));
+
+    int price = Integer.parseInt(args[0]);
+    double rate = 0.08; // 消費税8％
+
+    int amount = (int) (price * (1 + rate));
+    System.out.println("税込金額は" + amount + "円です");
   }
 }
