@@ -97,16 +97,26 @@ class First {
     // System.out.println("iは" + i + "です！");
     // }
 
-    int[] score = new int[3];
-    score[0] = 80;
-    score[1] = 100;
-    score[2] = 75;
+    // int[] score = new int[3];
+    // score[0] = 80;
+    // score[1] = 100;
+    // score[2] = 75;
 
-    String[] name = { "菅原", "村山", "寺島" };
+    // String[] name = { "菅原", "村山", "寺島" };
 
-    for (int i = 0; i < score.length; i++) {
-      System.out.println(name[i] + "は、" + score[0] + "点です");
-    }
-    System.out.println("合計人数は" + score.length + "人です");
+    // for (int i = 0; i < score.length; i++) {
+    // System.out.println(name[i] + "は、" + score[0] + "点です");
+    // }
+    // System.out.println("合計人数は" + score.length + "人です");
+
+    int height = Integer.parseInt(args[0]);
+    int width = Integer.parseInt(args[1]);
+    int area;
+
+    area = height * width;
+
+    System.out.println("高さ：" + height);
+    System.out.println("幅：" + width);
+    System.out.println("面積：" + area);
   }
 }
