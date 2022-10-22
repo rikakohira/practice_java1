@@ -109,14 +109,25 @@ class First {
     // }
     // System.out.println("合計人数は" + score.length + "人です");
 
-    int height = Integer.parseInt(args[0]);
-    int width = Integer.parseInt(args[1]);
-    int area;
+    // int height = Integer.parseInt(args[0]);
+    // int width = Integer.parseInt(args[1]);
+    // int area;
 
-    area = height * width;
+    // area = height * width;
 
-    System.out.println("高さ：" + height);
-    System.out.println("幅：" + width);
-    System.out.println("面積：" + area);
+    // System.out.println("高さ：" + height);
+    // System.out.println("幅：" + width);
+    // System.out.println("面積：" + area);
+
+    int a = Integer.parseInt(args[0]);
+    int b = Integer.parseInt(args[1]);
+
+    if (a > b) {
+      System.out.println("大きいのは" + a + "です。");
+    } else if (a < b) {
+      System.out.println("大きいのは" + b + "です。");
+    } else {
+      System.out.println("同じです！");
+    }
   }
 }
