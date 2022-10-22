@@ -130,10 +130,15 @@ class First {
     // System.out.println("同じです！");
     // }
 
-    int i = 0;
-    while (i < 10) {
-      System.out.println((i + 1) + "回目です");
-      i++;
+    // int i = 0;
+    // while (i < 10) {
+    // System.out.println((i + 1) + "回目です");
+    // i++;
+    // }
+
+    int i;
+    for (i = 0; i < args.length; i++) {
+      System.out.println(args[i]);
     }
   }
 }
