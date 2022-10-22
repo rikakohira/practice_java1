@@ -136,9 +136,10 @@ class First {
     // i++;
     // }
 
-    int i;
-    for (i = 0; i < args.length; i++) {
-      System.out.println(args[i]);
-    }
+    // int i;
+    // for (i = 0; i < args.length; i++) {
+    // System.out.println(args[i]);
+    // }
+
   }
 }
