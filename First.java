@@ -119,15 +119,21 @@ class First {
     // System.out.println("幅：" + width);
     // System.out.println("面積：" + area);
 
-    int a = Integer.parseInt(args[0]);
-    int b = Integer.parseInt(args[1]);
+    // int a = Integer.parseInt(args[0]);
+    // int b = Integer.parseInt(args[1]);
 
-    if (a > b) {
-      System.out.println("大きいのは" + a + "です。");
-    } else if (a < b) {
-      System.out.println("大きいのは" + b + "です。");
-    } else {
-      System.out.println("同じです！");
+    // if (a > b) {
+    // System.out.println("大きいのは" + a + "です。");
+    // } else if (a < b) {
+    // System.out.println("大きいのは" + b + "です。");
+    // } else {
+    // System.out.println("同じです！");
+    // }
+
+    int i = 0;
+    while (i < 10) {
+      System.out.println((i + 1) + "回目です");
+      i++;
     }
   }
 }
