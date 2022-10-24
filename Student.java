@@ -44,27 +44,40 @@ class Student {
   // System.out.println("英語" + engScore + "点・数学" + mathScore + "点");
   // }
 
+  // String name;
+  // int engScore;
+  // int mathScore;
+
+  // Student(String n) {
+  // name = n;
+  // }
+
+  // Student(String n, int e, int m) {
+  // name = n;
+  // engScore = e;
+  // mathScore = m;
+  // }
+
+  // void setScore(int e, int m) {
+  // engScore = e;
+  // mathScore = m;
+  // }
+
+  // void display() {
+  // System.out.println(name + "さん");
+  // System.out.println("英語" + engScore + "点・数学" + mathScore + "点");
+  // }
+
   String name;
-  int engScore;
-  int mathScore;
+  static int counter = 0;
 
   Student(String n) {
     name = n;
+    counter++;
+    System.out.println(name + "さんをインスタンス化しました");
   }
 
-  Student(String n, int e, int m) {
-    name = n;
-    engScore = e;
-    mathScore = m;
-  }
-
-  void setScore(int e, int m) {
-    engScore = e;
-    mathScore = m;
-  }
-
-  void display() {
-    System.out.println(name + "さん");
-    System.out.println("英語" + engScore + "点・数学" + mathScore + "点");
+  static void display() {
+    System.out.println(counter + "人です");
   }
 }
