@@ -25,12 +25,20 @@ class StuSample {
     // stu1.display();
     // stu2.display();
 
-    Student.display();
+    // Student.display();
+
+    // Student stu1 = new Student("菅原");
+    // Student.display();
+
+    // Student stu2 = new Student("村山");
+    // Student.display();
 
     Student stu1 = new Student("菅原");
-    Student.display();
+    stu1.setScore(80);
+    stu1.display();
 
     Student stu2 = new Student("村山");
-    Student.display();
+    stu2.setScore(-50);
+    stu2.display();
   }
 }

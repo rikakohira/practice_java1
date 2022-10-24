@@ -68,16 +68,36 @@ class Student {
   // System.out.println("英語" + engScore + "点・数学" + mathScore + "点");
   // }
 
-  String name;
-  static int counter = 0;
+  // String name;
+  // static int counter = 0;
 
-  Student(String n) {
+  // Student(String n) {
+  // name = n;
+  // counter++;
+  // System.out.println(name + "さんをインスタンス化しました");
+  // }
+
+  // static void display() {
+  // System.out.println(counter + "人です");
+  // }
+
+  private String name;
+  private int score;
+
+  public Student(String n) {
     name = n;
-    counter++;
-    System.out.println(name + "さんをインスタンス化しました");
   }
 
-  static void display() {
-    System.out.println(counter + "人です");
+  public void setScore(int s) {
+    if (0 <= s && s <= 100) {
+      score = s;
+    } else {
+      System.out.println(name + "さんの点数が範囲外です");
+      score = 0;
+    }
+  }
+
+  void display() {
+    System.out.println(name + "さん：" + score + "点");
   }
 }
