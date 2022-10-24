@@ -2,7 +2,11 @@ class Car1 {
   int no;
   int speed;
 
-  void setNo(int n) {
+  Car1() {
+    no = 0;
+  }
+
+  Car1(int n) {
     no = n;
   }
 
